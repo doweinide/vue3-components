@@ -1,6 +1,5 @@
 
 
-
 ## 🌐 **前端项目 - 完美衔接 Django-DRF-components 开源后端项目！**
 
 已在 GitHub 开源：[Vue3-components](https://github.com/doweinide/vue3-components.git)
@@ -23,6 +22,61 @@
 ---
 
 立即访问 GitHub，开始使用前后端完美结合的 Django 与 Vue3 项目，提升开发效率和应用性能！【[查看代码（后端）](https://github.com/doweinide/Django-DRF-components.git)】【[查看代码（前端）](https://github.com/doweinide/vue3-components.git)】
+
+
+## 前端项目启动文档
+可以看vben原项目的文档
+
+### 环境要求
+
+- **Node.js**：版本 18 及以上
+- **包管理工具**：`pnpm`
+
+### 项目安装与启动步骤
+
+1. **安装 Node.js**  
+   请确保你已安装 **Node.js 18 及以上版本**。如果尚未安装，可以前往 [Node.js 官方网站](https://nodejs.org/)下载并安装最新版本。
+
+   可以通过以下命令验证是否已安装正确版本：
+   ```bash
+   node -v
+   ```
+   如果版本不符合要求，请更新 Node.js。
+
+2. **安装 pnpm**  
+   使用 `pnpm` 作为包管理工具。你可以通过以下命令全局安装 `pnpm`：
+   ```bash
+   npm install -g pnpm
+   ```
+
+3. **安装项目依赖**  
+   在项目根目录下打开终端，执行以下命令安装项目所需的所有依赖：
+   ```bash
+   pnpm i
+   ```
+
+   该命令将读取 `package.json` 文件并自动安装所有依赖。
+
+4. **启动项目**  
+   安装完依赖后，使用以下命令启动开发服务器：
+   ```bash
+   pnpm dev:ele
+   ```
+
+   这将启动前端开发服务器，通常会监听 `localhost:3000`（默认端口）。你可以在浏览器中访问 `http://localhost:3000` 来查看应用。
+
+5. **其他常用命令**  
+   - **构建生产版本**：
+     ```bash
+     pnpm build
+     ```
+
+   - **启动生产版本**：
+     ```bash
+     pnpm start
+     ```
+
+
 
 --- 
 ## 🚀 **Django封装高复用高可移植的apps系列 - 快速集成与高效开发！**
